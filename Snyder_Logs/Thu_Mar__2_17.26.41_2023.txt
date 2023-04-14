@@ -1,0 +1,23 @@
+smarthome thermostat inject_dir 1-17-17-20-60-36-2-9-33-20-1-9-9-9
+ack:[INF: passDownToOnDirective:68] Directive is in unhandled namespace 60.
+ack:[INF: EventBuilderSend:115] Sending event.
+
+Ret: 0 Duration : 15 ms
+
+-->
+-->[2023-03-02 17:26:40.749 I   7 401ac81d]<CFG>:Reset Device targetState: 1
+[2023-03-02 17:26:40.750 I   7 401b49ca]<ALEXA>:Directive processed. Error (0:0); cor-id 0
+[2023-03-02 17:26:40.765 I  15 4014ff90]sh:iotStreamStateCb, state = 17
+
+[2023-03-02 17:26:40.778 I  14 4014fae8]sh:dir pub succ: ns:127(DOM), corrId:0 inst:0
+[2023-03-02 17:26:42.905 W  23 401aa486]<RCI>:Connection Lost 
+[2023-03-02 17:26:44.966 I  15 4014f7ba]sh:dir rcvd: ns:127(DOM), corrId:-991643428, inst:0
+ack:[INF: ProcessEventIfAvailable:109] HOSTINT asserted; processing inbound event.
+ack:[INF: ProcessEventState_ReceiveNextEvent_:201] Received Alexa directive.
+ack:[INF: ProcessEventState_DirectiveExtractBinaryDocument_:312] Received directive; correlation id -991643428, namespace 127
+ack:[INF: EventBuilderSend:115] Sending event.
+[2023-03-02 17:26:45.007 I  18 401b49a2]<ALEXA>:Report state directive; cor-id -991643428
+[2023-03-02 17:26:45.094 I  15 4014ff90]sh:iotStreamStateCb, state = 17
+
+[2023-03-02 17:26:45.112 I  14 4014fae8]sh:dir pub succ: ns:127(DOM), corrId:-991643428 inst:0
+[2023-03-02 17:26:52.392 I  16 40123e47]Map:aceMap_getRegistrationState (0)
