@@ -52,7 +52,7 @@ ser = serial.Serial()
 ser.port = config.serialport
 ser.baudrate = 115200
 ser.open()
-logpath = "Snyder_Logs"
+logpath = "Thermostat_Logs"
 try:
     os.mkdir(logpath)
 except:
